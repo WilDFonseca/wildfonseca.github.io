@@ -1,24 +1,68 @@
-# Wildney Fonseca — Consultoria de TI & IA
+# Wildney Fonseca
 
-Landing page estática em Vue 3 (CDN), preparada para GitHub Pages.
+## Tecnologia, Sistemas, Dados, IA & Automação
 
-## Antes de publicar
+Sou profissional de Tecnologia com mais de 5 anos de experiência atuando na interface entre **negócio, sistemas e engenharia**.
 
-- Em `index.html`, procure `const calUrl='https://cal.com/wildneyfonseca'` e troque pela URL/event type real do seu Cal.com.
-- Confirme o e-mail `contato@wildneyfonseca.com.br` no rodapé.
-- O WhatsApp está configurado para o número usado no CV; altere `whatsappNumber` se necessário.
+Minha trajetória começou em análise de dados e evoluiu para sistemas e produtos digitais, passando por ambientes de **fintech, SaaS e sistemas corporativos**. Ao longo desse caminho, trabalhei com análise de sistemas, engenharia de requisitos, integrações, dados, cloud, automação e inteligência artificial.
 
-## Publicar no GitHub Pages
+Atualmente, meu foco está em transformar problemas complexos de negócio em **soluções técnicas, automações e sistemas mais eficientes, seguros e escaláveis**.
 
-1. Crie um repositório, por exemplo `wildneyfonseca.com.br`.
-2. Envie todos os arquivos desta pasta para a branch `main`.
-3. Em Settings → Pages, escolha **GitHub Actions** como source.
-4. O workflow `.github/workflows/pages.yml` fará o deploy.
-5. O arquivo `CNAME` já aponta para `wildneyfonseca.com.br`.
-6. No DNS do domínio, aponte o apex para os IPs do GitHub Pages ou use a configuração recomendada pelo GitHub. Depois, ative HTTPS.
+---
 
-## Observações
+## O que faço
 
-- A página não precisa de Node/npm para publicar: Vue e Lucide carregam por CDN.
-- O formulário não precisa de backend: ele abre o WhatsApp com uma mensagem preenchida.
-- O botão de agendamento abre o Cal.com dentro de um modal via iframe, com fallback para nova aba.
+- Análise de sistemas e processos
+- Engenharia de requisitos
+- Análise de negócios
+- Integração de sistemas e APIs
+- Automação de processos e workflows
+- Inteligência Artificial aplicada
+- IA generativa, LLMs, RAG e agentes de IA
+- Dados, SQL e Power BI
+- Cloud e Azure
+- Modernização de sistemas legados
+- Qualidade, segurança e governança
+
+---
+
+## Experiência em números
+
+- **70%** dos fluxos de entrada de dados automatizados com IA
+- **80%** de redução no trabalho manual de verificação com OCR
+- **17%** de redução de retrabalho em processos de desenvolvimento
+- **13%** de redução no tempo de entrega
+- **15%** de redução nos custos mensais de Azure
+
+---
+
+## Tecnologia
+
+**Python · SQL · Azure · APIs REST · SAP · Power BI · FastAPI · React · Vue · Git · GitHub · CI/CD · OCR · RAG · LLMs · Agentes de IA**
+
+---
+
+## Formação
+
+**Engenharia Mecânica — Universidade Federal de Itajubá (UNIFEI)**
+
+Intercâmbio acadêmico em **Engenharia Aeroespacial — Universität der Bundeswehr München, Alemanha**.
+
+---
+
+## Idiomas
+
+- Português — Nativo
+- Inglês — Fluente (C1)
+- Alemão — Intermediário
+- Espanhol — Intermediário
+
+---
+
+## Vamos conversar
+
+**Website:** [wildneyfonseca.com.br](https://wildneyfonseca.com.br)
+
+**LinkedIn:** [linkedin.com/in/wildney-fonseca](https://linkedin.com/in/wildney-fonseca)
+
+**E-mail:** wildneyfonseca@gmail.com
