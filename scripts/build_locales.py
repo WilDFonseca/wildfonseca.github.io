@@ -84,7 +84,10 @@ def render(locale: str) -> str:
         **{f'ID_{key}': value for key, value in language['ids'].items()},
     }
     for key, value in values.items():
-        markup = markup.replace('{{' + key + '}}', html.escape(str(value), quote=True))
+        # These two values are controlled attribute fragments, not attribute
+        # contents; keep their quotes literal so aria-current remains valid.
+        replacement = str(value) if key in {'PT_CURRENT', 'EN_CURRENT'} else html.escape(str(value), quote=True)
+        markup = markup.replace('{{' + key + '}}', replacement)
     unresolved = re.findall(r'\{\{[A-Z_]+\}\}', markup)
     if unresolved:
         raise ValueError(f'{locale}: unresolved template values: {unresolved}')

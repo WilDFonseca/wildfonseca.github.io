@@ -1952,16 +1952,18 @@ footer {
 .language-switch { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
 .language-switch a {
   min-width: 40px; padding: 8px 10px; border: 1px solid rgba(255,255,255,.17); border-radius: 6px;
-  color: rgba(255,255,255,.8); text-align: center; font-size: 12px; font-weight: 700;
+  display: inline-flex; justify-content: center; align-items: center; color: rgba(255,255,255,.8);
 }
+.language-switch img { display: block; width: 20px; height: 15px; object-fit: contain; border-radius: 2px; }
 .language-switch a[aria-current="page"] { color: #081a11; border-color: #70eb97; background: #70eb97; }
 .footer-language-switch {
   height: 48px; min-width: 124px; padding: 0 14px; border: 1px solid rgba(245,248,246,.55); border-radius: 18px;
   background: rgba(3,17,18,.45); color: #f5f8f6; display: inline-flex; align-items: center; justify-content: center; gap: 9px; font-size: 14px;
 }
 .footer-language-switch > svg:first-child { width: 19px; color: #70eb97; }
-.footer-language-switch a { color: rgba(245,248,246,.7); }
-.footer-language-switch a[aria-current="page"] { color: #70eb97; font-weight: 800; }
+.footer-language-switch a { display: inline-flex; align-items: center; justify-content: center; padding: 4px; border-radius: 4px; opacity: .72; }
+.footer-language-switch a img { display: block; width: 20px; height: 15px; object-fit: contain; border-radius: 2px; }
+.footer-language-switch a[aria-current="page"] { opacity: 1; outline: 1px solid #70eb97; }
 @media (max-width: 680px) {
   .language-switch { align-self: flex-start; }
   .footer-language-switch { height: 42px; min-width: 110px; }
