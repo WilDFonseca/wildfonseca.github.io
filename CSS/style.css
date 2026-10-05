@@ -777,6 +777,14 @@ footer {
     width: min(calc(100% - 40px), var(--max))
   }
 
+  .nav {
+    gap: 28px
+  }
+
+  .brand {
+    flex-shrink: 0
+  }
+
   .links {
     gap: 17px
   }
@@ -1008,8 +1016,8 @@ footer {
   }
 
   .service-card>i {
-    height: 34px;
-    width: 34px;
+    height: 42px;
+    width: 42px;
     padding: 10px
   }
 
@@ -1648,7 +1656,7 @@ footer {
 }
 
 .footer-column {
-  padding: 0 28px 0 40px;
+  padding: 0 44px 0 40px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1822,7 +1830,7 @@ footer {
 
   .footer-column {
     min-height: auto;
-    padding-left: 0;
+    padding: 0 36px 0 0;
   }
 
   .footer-column:nth-of-type(4) {
