@@ -1,5 +1,28 @@
 # This is my portfolio
 
+## Desenvolvimento com Dev Containers
+
+Abra este repositório no VS Code com a extensão Dev Containers e escolha
+**Reopen in Container**. O container usa um usuário sem privilégios, não monta o
+socket do Docker nem credenciais do host, e só pode gravar no workspace, em
+`/tmp` e no volume dedicado à configuração do usuário. O sistema de arquivos
+restante é montado como somente leitura.
+
+Para visualizar o site, abra um terminal no container e execute:
+
+```sh
+python3 -m http.server 8000 --bind 0.0.0.0
+```
+
+O VS Code encaminha a porta 8000 para a máquina local; o Compose não publica
+portas diretamente no host. O container pode iniciar conexões de saída para
+Git e recursos de desenvolvimento, mas não recebe portas de serviços externos.
+O projeto atual é estático e não precisa baixar dependências durante o
+desenvolvimento. A imagem instala apenas Git e certificados durante o build.
+
+A configuração de desenvolvimento é independente do runtime. Para publicar
+este site, o fluxo existente do GitHub Pages continua sendo o caminho de deploy.
+
 # Wildney Fonseca
 
 ## Technology, Systems, Data, AI & Automation
@@ -51,8 +74,6 @@ My current focus is on transforming complex business problems into **technical s
 ### Engineering
 
 **Mechanical Engineering — Federal University of Itajubá (UNIFEI)**
-
-Academic exchange in **Aerospace Engineering — Universität der Bundeswehr München, Germany**.
 
 My engineering background shaped the way I approach technology: through structured problem solving, systems thinking, data analysis, and continuous improvement.
 
