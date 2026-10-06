@@ -77,8 +77,6 @@ def render(locale: str) -> str:
         'LANGUAGE_LABEL': language['language_label'],
         'MENU_OPEN': content['menuOpen'],
         'SCROLL_LABEL': content['scrollLabel'],
-        'SOCIAL_LABEL': 'Redes sociais' if locale == 'pt' else 'Social media',
-        'EMAIL_LABEL': 'E-mail' if locale == 'pt' else 'Email',
         'PT_CURRENT': ' aria-current="page"' if locale == 'pt' else '',
         'EN_CURRENT': ' aria-current="page"' if locale == 'en' else '',
         **{f'ID_{key}': value for key, value in language['ids'].items()},

@@ -1635,26 +1635,6 @@ footer {
   margin: 22px 30px 25px 0;
 }
 
-.footer-social {
-  display: flex;
-  gap: 18px;
-}
-
-.footer-social span {
-  width: 54px;
-  height: 54px;
-  border: 1px solid rgba(245, 248, 246, .36);
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  color: rgba(245, 248, 246, .82);
-}
-
-.footer-social svg {
-  width: 23px;
-  height: 23px;
-}
-
 .footer-column {
   padding: 0 44px 0 40px;
   display: flex;
@@ -1869,16 +1849,6 @@ footer {
   .footer-brand-column p,
   .footer-newsletter>p {
     font-size: 15px;
-  }
-
-  .footer-social {
-    gap: 10px;
-  }
-
-  .footer-social span {
-    width: 44px;
-    height: 44px;
-    border-radius: 10px;
   }
 
   .footer-column {
